@@ -4,7 +4,7 @@ configuration {
 }
 
 * {
-    background-color: #000000;
+    background-color: #000000F2;
     text-color:       #ffffff;
     border:           0;
 }
@@ -33,7 +33,7 @@ inputbar {
 entry {
     background-color: #000000;
 
-    text-color: #ffffff;
+    text-color: #97F1C7;
 
     placeholder: "Search";
 
@@ -54,10 +54,16 @@ element {
     background-color: #000000;
 }
 
-element-text {
-    text-color: #ffffff;
+element {
+    border: 0px 0px 0px 4px;
+    border-color: transparent;
 }
 
-element selected {
-    background-color: #111111;
+element.selected {
+    border: 0px 0px 0px 4px;
+    border-color: #f17195;
+}
+
+element.selected element-text {
+    text-color: #ffffff;
 }
